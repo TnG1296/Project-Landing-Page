@@ -1,9 +1,48 @@
-*{
-    font-family: roboto;
+* {
+    font-family:"Roboto";
+    font-weight: 400;
 }
 
-.hero{
-    display: block;
-    height: 100px;
+.header{
+    height: 50px;
     background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    gap: 10px;
+    font-family:"Roboto";
+    font-weight: 400;
+}
+
+.links {
+    justify-content: flex-end;
+    display: flex;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+.hero {
+    height: 500px;
+    background-color: #1f2937;
+
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+.quote-section{
+    
 }
