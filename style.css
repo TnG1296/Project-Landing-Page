@@ -2,10 +2,52 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
+body{
+    margin: 0px;
+}
 /*-------------------------------------------------------------------------------------------------*/
 .header{
     background-color: #1f2937;
+    height: 575px;
 }
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+}
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .header-logo{
+        font-size: 24px;
+        color: #f9faf8;
+        }
+
+        .links{
+        display: flex;
+        flex:1;
+        justify-content: space-around;
+        }
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+}
+        .hero{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        }
+
+        .main-title{
+            justify-content: flex-start;
+        }
+
+
 /*-------------------------------------------------------------------------------------------------*/
 .information-header{
     display: flex;
@@ -22,7 +64,12 @@ img {
     height: 200px;
 }
 /*-------------------------------------------------------------------------------------------------*/
+.quote-section{
+    background-color: #e5e7eb;
+    
+}
 
+/*-------------------------------------------------------------------------------------------------*/
 
 .footer{
     background-color: #1f2937;
