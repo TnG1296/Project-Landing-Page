@@ -22,20 +22,26 @@ body{
 }
 
     .menu{
-        border: 5px green solid;
         display: flex;
+        flex-direction: row;
+        width: 1000px;
         justify-content: space-between;
     }
 
         .header-logo{
         font-size: 24px;
         color: #f9faf8;
-        border: 5px blue solid;
+        font-weight: bolder;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
         }
 
         .links{
-        flex:1;
-        border: 5px yellow solid;
+        display: flex;
+        justify-content: space-evenly;
+        color: #f9faf8;
+        gap: 10px;
         }
 
 .hero-container{
@@ -50,17 +56,28 @@ body{
         border: 5px red solid;
         }
 
-        .main-title{
-            justify-content: flex-start;
+            .main-title{
             border: 5px red solid;
-        }
+            }
+                .awesome{
+
+                }
+            .placeholder{
+            width: 50px;
+            height: 50px;
+            background-color: grey;
+            }
 
 
 /*-------------------------------------------------------------------------------------------------*/
 .information-header{
-    display: flex;
     height: 550px;
     width: auto;
+}
+
+.information-text{
+    display: flex;
+
 }
 
 .photos{
