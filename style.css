@@ -4,6 +4,7 @@
 }
 
 body{
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     height: auto;
     width: auto;
@@ -12,13 +13,11 @@ body{
 .header{
     background-color: #1f2937;
     height: 540px;
-    border: 5px black solid;
 }
 
 .menu-container{
     display: flex;
     justify-content: center;
-    border: 5px red inset;
 }
 
     .menu{
@@ -32,9 +31,7 @@ body{
         font-size: 24px;
         color: #f9faf8;
         font-weight: bolder;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-end;
+        padding-top: 10px;
         }
 
         .links{
@@ -42,6 +39,7 @@ body{
         justify-content: space-evenly;
         color: #f9faf8;
         gap: 10px;
+        padding-left: 10px;
         }
 
 .hero-container{
