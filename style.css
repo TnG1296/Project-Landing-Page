@@ -42,18 +42,20 @@ body{
 .hero-container{
     display: flex;
     justify-content: center;
-    border: 5px red solid;
 }
         .hero{
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 5px red solid;
         height: 473px;
+        gap: 20px;
         }
 
             .main-title{
-            border: 5px red solid;
+            width: 550px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
             }
                 .awesome{
                     font-size: 48px;
@@ -66,16 +68,15 @@ body{
                 .button{
 
                 }
-            .placeholder{
-            width: 200px;
-            height: 200px;
-            background-color: grey;
+            #main-photo{
+            width: 425px;
+            height: 215px;
             }
 
 
-.links, .sub{
-    font-size: 18px;
+.links, .sub {
     color: #e5e7eb;
+    font-size: 18px;
 }
 /*-------------------------------------------------------------------------------------------------*/
 .information-header{
@@ -94,7 +95,7 @@ body{
     gap: 10px;
 }
 
-img {
+.sample-photo {
     width: 200px;
     height: 200px;
     border-radius: 25px;
