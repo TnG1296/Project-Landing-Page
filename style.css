@@ -144,17 +144,22 @@ a{
 
 /*-------------------------------------------------------------------------------------------------*/
 .quote-section{
-    background-color: #e5e7eb ;
+    background-color: #e5e7eb;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-    .quote{
+    #quote{
         font-size: 36px;
-        font-style: light-italic;
-        color: #1f2937;
+        font-style: italic;
+        color: #1F2937;
     }
     .signature{
         font-size: 20px;
         font-weight: bold;
+        margin-left: 751px;
     }
 /*-------------------------------------------------------------------------------------------------*/
 .cta-section{
