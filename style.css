@@ -78,6 +78,7 @@ body{
                     justify-content: center;
                     align-items: center;
                     border-radius: 5px;
+                    border: none;
 
                 }
             #main-photo{
@@ -99,24 +100,33 @@ a{
 .information-header{
     height: 550px;
     width: auto;
+    border: red solid;
 }
 
     .information-text{
         display: flex;
+        border: blue solid;
     }
-
-    .photos{
+    .photos-container{
         display: flex;
         justify-content: center;
-        gap: 10px;
-        height: 50px;
-        width: 50px;
+        border: yellow solid;
+        height: 200px;
     }
+        .photos{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            height: 50px;
+            width: 50px;
+            border: red solid;
+        }
 
         .sample-photo {
             width: 40px;
             height: 40px;
             border-radius: 25px;
+            border: red solid;
         }
 /*-------------------------------------------------------------------------------------------------*/
 .quote-section{
