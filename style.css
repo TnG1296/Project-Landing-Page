@@ -62,11 +62,8 @@ body{
             }
                 .awesome{
                     font-size: 48px;
-                    font-weight: 800;
+                    font-weight: 700;
                     color: #f9faf8;
-                }
-                .sub{
-
                 }
                 .button{
                     color: white;
@@ -79,7 +76,6 @@ body{
                     align-items: center;
                     border-radius: 5px;
                     border: none;
-
                 }
             #main-photo{
             width: 425px;
@@ -100,34 +96,52 @@ a{
 .information-header{
     height: 550px;
     width: auto;
-    border: red solid;
 }
 
     .information-text{
+        color: #1f2937;
         display: flex;
-        border: blue solid;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        font-weight: 800;
+        height: 100px;
+
     }
     .photos-container{
         display: flex;
         justify-content: center;
-        border: yellow solid;
-        height: 200px;
+        align-items: center;
+        height: 400px;
+        flex-direction: column;
     }
         .photos{
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
             gap: 10px;
-            height: 50px;
-            width: 50px;
-            border: red solid;
+            height: 145px;
+            width: 838px;
         }
 
-        .sample-photo {
-            width: 40px;
-            height: 40px;
-            border-radius: 25px;
-            border: red solid;
+            .sample-photo {
+                width: 160px;
+                height: 170px;
+                border-radius: 25px;
+                border: #3882f6 solid;
+            }
+        .text-photos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: italic;
+            color: grey;
+            gap: 10px;
+            height: 145px;
+            width: 862px;
+            margin-left: 55px
         }
+
 /*-------------------------------------------------------------------------------------------------*/
 .quote-section{
     background-color: #e5e7eb ;
